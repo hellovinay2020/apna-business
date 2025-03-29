@@ -1,0 +1,95 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.header-bar{
+    background-color: rgb(0, 0, 42);
+}
+.navbar{
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    gap: 5rem; 
+    padding-top: 15px;
+    font-family: 'Times New Roman', Times, serif;
+   
+}
+.navbar li a:hover{
+    background-color: red;
+    padding: 10px;
+    font-weight: bold;
+    border-radius: 5px;
+    
+}
+.navbar li a{
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+    
+    
+    
+}
+.navbar li{
+    list-style: none;
+   
+}
+
+.card-body{
+    background-color: hsl(215, 55%, 21%);
+    color: white;
+}
+.card-title{
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card-texts{
+    font-weight: bold;
+}
+.card:hover{
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    transition: 0.4s;
+}
+#para{
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+label {
+    font-size: 20px;
+    color: darkblue;
+    font-family: cursive;
+    display: flex;
+    color: white;
+    padding: 5px;
+}
+.contact-us{
+    background-color: rgb(0, 0, 36);
+}
+footer{
+    background-color: black;
+}
+
+.feature-box{
+    color: white;
+}
+.feature-box h3:hover{
+    border-bottom: 3px solid rgb(3, 255, 125);
+    width: 35%;
+    transition: 0s;
+}
+.footer-link li{
+    list-style: none;
+}
+.footer-link li a{
+    font-size: 20px;
+}
+.footer-link li a:hover{
+    color: yellow;
+    text-decoration: none;
+    transition: 0.2s;
+    font-weight: 600;
+}
